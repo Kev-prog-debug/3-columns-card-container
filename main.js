@@ -35,6 +35,7 @@ data.forEach((e) => {
   description.innerHTML = e.description;
   const img = document.createElement("img");
   img.setAttribute("src", e.img);
+  img.setAttribute("alt", "image");
   const btn = document.createElement("button");
   btn.innerHTML = "Learn More";
   btn.setAttribute("class", "btn");
